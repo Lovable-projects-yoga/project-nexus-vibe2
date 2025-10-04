@@ -12,8 +12,7 @@ const Index = () => {
         "30-minute live sessions",
         "Every Wednesday at 8 AM or 6 PM",
         "Core strength and flexibility",
-        "Low-impact, high-intensity workout",
-        "Lifetime access to recordings"
+        "Low-impact, high-intensity workout"
       ]
     },
     {
@@ -25,8 +24,7 @@ const Index = () => {
         "Every Wednesday at 8:30 PM",
         "Deep tissue stretching",
         "Calming and meditative",
-        "Perfect for evening wind-down",
-        "Lifetime access to recordings"
+        "Perfect for evening wind-down"
       ]
     },
     {
@@ -38,8 +36,7 @@ const Index = () => {
         "Every Wednesday at 9 PM",
         "Crystal bowls and healing sounds",
         "Deep relaxation and stress relief",
-        "Perfect before bedtime",
-        "Lifetime access to recordings"
+        "Perfect before bedtime"
       ]
     }
   ];
