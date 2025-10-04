@@ -7,8 +7,9 @@ const Index = () => {
     {
       title: "Pilates",
       description: "Strengthen your core and improve posture with our dynamic Pilates sessions.",
-      price: "$29",
+      price: "€10",
       features: [
+        "Drop-in class - no commitment",
         "30-minute live sessions",
         "Every Wednesday at 8 AM or 6 PM",
         "Core strength and flexibility",
@@ -18,8 +19,9 @@ const Index = () => {
     {
       title: "Yin Yoga",
       description: "Slow-paced practice with deep stretches to release tension and restore balance.",
-      price: "$29",
+      price: "€10",
       features: [
+        "Drop-in class - no commitment",
         "30-minute live sessions",
         "Every Wednesday at 8:30 PM",
         "Deep tissue stretching",
@@ -30,8 +32,9 @@ const Index = () => {
     {
       title: "Soundbath",
       description: "Immerse yourself in healing vibrations for deep relaxation and meditation.",
-      price: "$29",
+      price: "€10",
       features: [
+        "Drop-in class - no commitment",
         "30-minute live sessions",
         "Every Wednesday at 9 PM",
         "Crystal bowls and healing sounds",
