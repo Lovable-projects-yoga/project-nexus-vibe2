@@ -5,40 +5,41 @@ import Footer from "@/components/Footer";
 const Index = () => {
   const yogaClasses = [
     {
-      title: "Beginner Flow",
-      description: "Perfect for those new to yoga. Learn the fundamentals in a supportive environment.",
+      title: "Pilates",
+      description: "Strengthen your core and improve posture with our dynamic Pilates sessions.",
       price: "$29",
       features: [
-        "8 weeks of guided sessions",
-        "Basic poses and breathing techniques",
-        "Flexibility and stress reduction focus",
-        "Lifetime access to recordings",
-        "Beginner-friendly community"
+        "30-minute live sessions",
+        "Every Wednesday at 8 AM or 6 PM",
+        "Core strength and flexibility",
+        "Low-impact, high-intensity workout",
+        "Lifetime access to recordings"
       ]
     },
     {
-      title: "Intermediate Practice",
-      description: "Take your practice deeper with more challenging poses and sequences.",
-      price: "$49",
+      title: "Yin Yoga",
+      description: "Slow-paced practice with deep stretches to release tension and restore balance.",
+      price: "$29",
       features: [
-        "10 weeks of progressive training",
-        "Advanced asanas and transitions",
-        "Core strength and balance focus",
-        "Lifetime access to recordings",
-        "Weekly live Q&A sessions"
+        "30-minute live sessions",
+        "Every Wednesday at 8:30 PM",
+        "Deep tissue stretching",
+        "Calming and meditative",
+        "Perfect for evening wind-down",
+        "Lifetime access to recordings"
       ]
     },
     {
-      title: "Advanced Mastery",
-      description: "Master complex poses and deepen your spiritual practice.",
-      price: "$79",
+      title: "Soundbath",
+      description: "Immerse yourself in healing vibrations for deep relaxation and meditation.",
+      price: "$29",
       features: [
-        "12 weeks of intensive practice",
-        "Inversions and arm balances",
-        "Meditation and pranayama deep dive",
-        "Lifetime access to recordings",
-        "Personal progress reviews",
-        "Private community forum"
+        "30-minute live sessions",
+        "Every Wednesday at 9 PM",
+        "Crystal bowls and healing sounds",
+        "Deep relaxation and stress relief",
+        "Perfect before bedtime",
+        "Lifetime access to recordings"
       ]
     }
   ];
