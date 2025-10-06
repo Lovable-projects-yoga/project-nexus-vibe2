@@ -9,10 +9,10 @@ const Hero = () => {
   return (
     <section className="relative min-h-[92vh] flex items-center justify-center overflow-hidden">
       <div 
-        className="absolute inset-0 bg-cover bg-center z-0 scale-105"
+        className="absolute inset-0 bg-cover bg-center z-0"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-[image:var(--gradient-hero)]" />
+        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 via-accent/15 to-secondary/20" />
       </div>
       
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center animate-fade-in">
