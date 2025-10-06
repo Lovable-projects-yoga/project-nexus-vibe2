@@ -7,26 +7,26 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[92vh] flex items-center justify-center overflow-hidden">
       <div 
-        className="absolute inset-0 bg-cover bg-center z-0"
+        className="absolute inset-0 bg-cover bg-center z-0 scale-105"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/30 via-accent/20 to-secondary/30" />
+        <div className="absolute inset-0 bg-[image:var(--gradient-hero)]" />
       </div>
       
-      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground drop-shadow-lg">
+      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center animate-fade-in">
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.4)] leading-tight">
           Transform Your Practice
         </h1>
-        <p className="text-xl md:text-2xl mb-8 text-foreground/90 max-w-2xl mx-auto drop-shadow-md">
+        <p className="text-xl md:text-2xl mb-10 text-white/95 max-w-2xl mx-auto drop-shadow-[0_2px_8px_rgba(0,0,0,0.3)] leading-relaxed">
           Join our online yoga classes and discover inner peace, strength, and flexibility from the comfort of your home
         </p>
         <Button 
           variant="hero" 
           size="lg"
           onClick={scrollToClasses}
-          className="text-lg px-8 py-6 h-auto"
+          className="text-lg px-10 py-7 h-auto font-semibold"
         >
           Explore Classes
         </Button>
