@@ -17,32 +17,43 @@ const ClassCard = ({ title, description, price, features }: ClassCardProps) => {
   };
 
   return (
-    <Card className="h-full flex flex-col bg-[image:var(--gradient-card)] shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-medium)] transition-all duration-500 hover:scale-[1.02] hover:-translate-y-1 border-border/50">
-      <CardHeader className="space-y-3 pb-4">
-        <CardTitle className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+    <Card className="group h-full flex flex-col bg-card/80 backdrop-blur-sm shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-medium)] transition-all duration-700 hover:scale-[1.03] hover:-translate-y-2 border border-border/30 relative overflow-hidden min-w-[320px]">
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
+      
+      <CardHeader className="space-y-4 pb-6 relative z-10">
+        <CardTitle className="text-3xl font-light tracking-wide text-foreground">
           {title}
         </CardTitle>
-        <CardDescription className="text-base leading-relaxed">{description}</CardDescription>
+        <CardDescription className="text-base leading-relaxed font-light">{description}</CardDescription>
       </CardHeader>
-      <CardContent className="flex-grow">
-        <div className="mb-6 pb-6 border-b border-border/40">
-          <span className="text-5xl font-bold bg-gradient-to-br from-primary via-accent to-secondary bg-clip-text text-transparent">
-            {price}
-          </span>
-          <span className="text-muted-foreground ml-2 text-sm">per session</span>
+      
+      <CardContent className="flex-grow relative z-10">
+        <div className="mb-8 pb-6 border-b border-border/20">
+          <div className="flex items-baseline">
+            <span className="text-5xl font-light text-foreground tracking-tight">
+              {price}
+            </span>
+            <span className="text-muted-foreground/60 ml-3 text-sm font-light">per session</span>
+          </div>
         </div>
-        <ul className="space-y-3">
+        
+        <ul className="space-y-4">
           {features.map((feature, index) => (
-            <li key={index} className="flex items-start group">
-              <span className="text-secondary mr-3 text-xl font-semibold group-hover:scale-110 transition-transform">✓</span>
-              <span className="text-muted-foreground leading-relaxed">{feature}</span>
+            <li key={index} className="flex items-start group/item">
+              <div className="mt-1 mr-3 flex-shrink-0">
+                <div className="w-5 h-5 rounded-full border border-primary/30 flex items-center justify-center group-hover/item:bg-primary/10 transition-colors duration-300">
+                  <span className="text-primary text-xs">✓</span>
+                </div>
+              </div>
+              <span className="text-muted-foreground leading-relaxed font-light text-sm">{feature}</span>
             </li>
           ))}
         </ul>
       </CardContent>
-      <CardFooter className="pt-6">
+      
+      <CardFooter className="pt-8 relative z-10">
         <Button 
-          className="w-full shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-medium)]" 
+          className="w-full shadow-[var(--shadow-soft)] hover:shadow-[var(--shadow-medium)] font-light tracking-wide transition-all duration-300" 
           size="lg"
           onClick={handlePurchase}
         >
