@@ -17,7 +17,7 @@ const Hero = () => {
       
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center animate-fade-in">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white drop-shadow-[0_4px_12px_rgba(0,0,0,0.4)] leading-tight">
-          Transform Your Practice
+          Yoga with Andrea
         </h1>
         <p className="text-xl md:text-2xl mb-10 text-white/95 max-w-2xl mx-auto drop-shadow-[0_2px_8px_rgba(0,0,0,0.3)] leading-relaxed">
           Join our online yoga classes and discover inner peace, strength, and flexibility from the comfort of your home
