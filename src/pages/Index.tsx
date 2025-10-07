@@ -59,7 +59,7 @@ const Index = () => {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="flex flex-row gap-8 overflow-x-auto">
             {yogaClasses.map((yogaClass, index) => (
               <ClassCard key={index} {...yogaClass} />
             ))}
