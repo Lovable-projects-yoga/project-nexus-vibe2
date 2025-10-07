@@ -9,17 +9,17 @@ const Hero = () => {
   return (
     <section className="relative min-h-[92vh] flex items-center justify-center overflow-hidden">
       <div 
-        className="absolute inset-0 bg-cover bg-[center_30%] z-0"
+        className="absolute inset-0 bg-cover bg-center z-0"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-primary/15 via-accent/10 to-secondary/15" />
       </div>
       
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center animate-fade-in">
-        <h1 className="text-6xl md:text-8xl font-bold mb-8 text-white drop-shadow-[0_4px_16px_rgba(0,0,0,0.5)] leading-tight tracking-tight">
+        <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white drop-shadow-[0_4px_16px_rgba(0,0,0,0.5)] leading-tight tracking-tight">
           Yoga with Andrea
         </h1>
-        <p className="text-2xl md:text-3xl mb-12 text-white/95 max-w-3xl mx-auto drop-shadow-[0_2px_10px_rgba(0,0,0,0.4)] leading-relaxed font-light">
+        <p className="text-lg md:text-xl mb-10 text-white/95 max-w-2xl mx-auto drop-shadow-[0_2px_10px_rgba(0,0,0,0.4)] leading-relaxed font-light">
           Join online to discover more calm, strength, and flexibility from home
         </p>
         <Button 
