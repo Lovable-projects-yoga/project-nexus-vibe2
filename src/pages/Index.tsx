@@ -6,7 +6,7 @@ const Index = () => {
   const yogaClasses = [
     {
       title: "Pilates",
-      description: "strengthen your core and improve posture with pilates",
+      description: "Strengthen your core and improve posture with pilates",
       price: "€10",
       features: [
         "Drop-in class",
@@ -27,7 +27,7 @@ const Index = () => {
         "Every Wednesday at 8:30 PM",
         "Deep tissue stretching",
         "Calming and meditative",
-        "Great for evening wind-down"
+        "Well-suited for evening wind-down"
       ]
     },
     {
@@ -40,7 +40,7 @@ const Index = () => {
         "Every Wednesday at 9 PM",
         "Crystal bowls and healing sounds",
         "Deep relaxation and stress relief",
-        "Great before bedtime"
+        "Well-suited before bedtime"
       ]
     }
   ];
