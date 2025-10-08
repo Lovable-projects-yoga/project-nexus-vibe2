@@ -14,7 +14,8 @@ const Index = () => {
         "Every Wednesday at 8 AM or 6 PM",
         "Core strength and flexibility",
         "Low-impact, high-intensity workout"
-      ]
+      ],
+      link: "/pilates"
     },
     {
       title: "Yin Yoga",

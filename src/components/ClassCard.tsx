@@ -1,19 +1,27 @@
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
+import { useNavigate } from "react-router-dom";
 
 interface ClassCardProps {
   title: string;
   description: string;
   price: string;
   features: string[];
+  link?: string;
 }
 
-const ClassCard = ({ title, description, price, features }: ClassCardProps) => {
+const ClassCard = ({ title, description, price, features, link }: ClassCardProps) => {
+  const navigate = useNavigate();
+
   const handlePurchase = () => {
-    toast.info("Payment processing will be available soon!", {
-      description: "We're setting up secure payment. Check back shortly!"
-    });
+    if (link) {
+      navigate(link);
+    } else {
+      toast.info("Payment processing will be available soon!", {
+        description: "We're setting up secure payment. Check back shortly!"
+      });
+    }
   };
 
   return (
