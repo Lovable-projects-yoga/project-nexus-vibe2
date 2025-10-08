@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/yoga-hero.jpg";
+import heroImage from "@/assets/yoga-hero-new.jpg";
 
 const Hero = () => {
   const scrollToClasses = () => {
@@ -12,7 +12,7 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{ backgroundImage: `url(${heroImage})` }}
       >
-        <div className="absolute inset-0 bg-gradient-to-br from-primary/15 via-accent/10 to-secondary/15" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/40" />
       </div>
       
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center animate-fade-in">
