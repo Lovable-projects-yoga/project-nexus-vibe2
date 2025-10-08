@@ -27,7 +27,7 @@ const Index = () => {
         "Every Wednesday at 8:30 PM",
         "Deep tissue stretching",
         "Calming and meditative",
-        "Perfect for evening wind-down"
+        "Great for evening wind-down"
       ]
     },
     {
@@ -40,7 +40,7 @@ const Index = () => {
         "Every Wednesday at 9 PM",
         "Crystal bowls and healing sounds",
         "Deep relaxation and stress relief",
-        "Perfect before bedtime"
+        "Great before bedtime"
       ]
     }
   ];
