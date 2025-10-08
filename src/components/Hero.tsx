@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/yoga-hero-new.jpg";
+import heroImage from "@/assets/yoga-hero-enhanced.jpg";
 
 const Hero = () => {
   const scrollToClasses = () => {
