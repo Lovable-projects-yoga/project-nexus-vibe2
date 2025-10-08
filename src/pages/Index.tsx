@@ -40,7 +40,7 @@ const Index = () => {
         "Every Wednesday at 9 PM",
         "Crystal bowls and healing sounds",
         "Deep relaxation and stress relief",
-        "Well-suited before bedtime"
+        "Ideal before bedtime"
       ]
     }
   ];
