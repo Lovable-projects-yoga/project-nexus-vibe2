@@ -9,10 +9,18 @@ const Hero = () => {
   return (
     <section className="relative min-h-[92vh] flex items-center justify-center overflow-hidden">
       <div 
-        className="absolute inset-0 bg-cover bg-center z-0"
-        style={{ backgroundImage: `url(${heroImage})` }}
+        className="absolute inset-0 z-0 overflow-hidden"
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/40" />
+        <div 
+          className="absolute inset-0 bg-cover scale-110"
+          style={{ 
+            backgroundImage: `url(${heroImage})`,
+            backgroundPosition: '50% 45%',
+            transform: 'rotate(-1deg) scale(1.1)'
+          }}
+        >
+          <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/40" />
+        </div>
       </div>
       
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center animate-fade-in">
