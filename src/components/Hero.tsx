@@ -20,11 +20,11 @@ const Hero = () => {
             transformOrigin: 'center'
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/40" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/15 via-black/10 to-black/25" />
         </div>
       </div>
       
-      <div className="relative z-10 w-full backdrop-blur-md bg-black/40 border-t border-white/10 animate-fade-in">
+      <div className="relative z-10 w-full backdrop-blur-md bg-black/20 border-t border-white/10 animate-fade-in">
         <div className="max-w-6xl mx-auto px-6 md:px-12 py-8 md:py-12">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="text-center md:text-left">
