@@ -17,7 +17,7 @@ const Footer = () => {
           © 2024 Online Yoga Classes. All rights reserved.
         </p>
         <p className="text-sm text-muted-foreground mt-2">
-          Transform your practice, transform your life
+          Yoga with Andrea
         </p>
       </div>
     </footer>
