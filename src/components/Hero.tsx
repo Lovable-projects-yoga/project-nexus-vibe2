@@ -12,12 +12,10 @@ const Hero = () => {
         className="absolute inset-0 z-0 overflow-hidden"
       >
         <div 
-          className="absolute inset-0 bg-cover"
+          className="absolute inset-0 bg-cover md:bg-contain bg-center"
           style={{ 
             backgroundImage: `url(${heroImage})`,
-            backgroundPosition: '45% 65%',
-            transform: 'rotate(1.2deg)',
-            transformOrigin: 'center'
+            backgroundRepeat: 'no-repeat'
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-b from-black/5 via-transparent to-black/15" />
