@@ -6,7 +6,7 @@ const Index = () => {
   const yogaClasses = [
     {
       title: "Pilates",
-      description: "Strengthen your core and improve posture with pilates",
+      description: "Strengthen your core and improve posture with pilates classical mat and breathing exercises",
       price: "€10",
       features: [
         "Drop-in class",
