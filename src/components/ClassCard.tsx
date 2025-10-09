@@ -25,7 +25,7 @@ const ClassCard = ({ title, description, price, features, link }: ClassCardProps
   };
 
   return (
-    <Card className="group h-full flex flex-col bg-card/80 backdrop-blur-sm shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-medium)] transition-all duration-700 hover:scale-[1.03] hover:-translate-y-2 border border-border/30 relative overflow-hidden min-w-[320px]">
+    <Card className="group h-full flex flex-col bg-card/80 backdrop-blur-sm shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-medium)] transition-all duration-700 hover:scale-[1.03] hover:-translate-y-2 border border-border/30 relative overflow-hidden w-full">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
       
       <CardHeader className="space-y-4 pb-6 relative z-10">
