@@ -65,7 +65,7 @@ const ClassCard = ({ title, description, price, features, link }: ClassCardProps
           size="lg"
           onClick={handlePurchase}
         >
-          Purchase Now
+          Book now
         </Button>
       </CardFooter>
     </Card>

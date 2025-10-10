@@ -90,7 +90,7 @@ const PilatesSelection = () => {
                 size="lg"
                 onClick={() => handlePurchase("8 AM")}
               >
-                Purchase 8 AM Class
+                Book now
               </Button>
             </CardContent>
           </Card>
@@ -150,7 +150,7 @@ const PilatesSelection = () => {
                 size="lg"
                 onClick={() => handlePurchase("6 PM")}
               >
-                Purchase 6 PM Class
+                Book now
               </Button>
             </CardContent>
           </Card>

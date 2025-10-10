@@ -41,7 +41,7 @@ const Hero = () => {
               onClick={scrollToClasses}
               className="text-base md:text-lg px-8 py-6 h-auto font-semibold whitespace-nowrap"
             >
-              Explore Classes
+              Book now
             </Button>
           </div>
         </div>
