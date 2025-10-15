@@ -42,6 +42,20 @@ const Index = () => {
         "Deep relaxation and stress relief",
         "Ideal before bedtime"
       ]
+    },
+    {
+      title: "Yin Yoga + Soundbath",
+      description: "Experience the ultimate relaxation combining deep stretches with healing sound vibrations",
+      price: "€15",
+      features: [
+        "Drop-in class",
+        "60-minute live session",
+        "Every Wednesday at 8:30 PM",
+        "Deep tissue stretching",
+        "Crystal bowls and healing sounds",
+        "Complete mind-body restoration",
+        "Perfect evening ritual"
+      ]
     }
   ];
 
