@@ -11,7 +11,7 @@ const Index = () => {
       features: [
         "Drop-in class",
         "30-minute live session",
-        "Every Wednesday at 8 AM or 6 PM",
+        "Every Wednesday at 8 AM or 6 PM CET",
         "Core strength and flexibility",
         "Moderate to intense workout, different options will be given so that you can adapt your practice to your body that day"
       ],
@@ -24,7 +24,7 @@ const Index = () => {
       features: [
         "Drop-in class",
         "30-minute live session",
-        "Every Wednesday at 8:30 PM",
+        "Every Wednesday at 8:30 PM CET",
         "Deep tissue stretching",
         "Calming and meditative",
         "Well-suited for evening wind-down"
@@ -37,7 +37,7 @@ const Index = () => {
       features: [
         "Drop-in class",
         "30-minute live session",
-        "Every Wednesday at 9 PM",
+        "Every Wednesday at 9 PM CET",
         "Crystal bowls and healing sounds",
         "Deep relaxation and stress relief",
         "Ideal before bedtime"
@@ -50,7 +50,7 @@ const Index = () => {
       features: [
         "Drop-in class",
         "60-minute live session",
-        "Every Wednesday at 8:30 PM",
+        "Every Wednesday at 8:30 PM CET",
         "Deep tissue stretching",
         "Crystal bowls and healing sounds",
         "Perfect evening ritual"
