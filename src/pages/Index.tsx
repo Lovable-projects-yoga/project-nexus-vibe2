@@ -13,7 +13,7 @@ const Index = () => {
         "30-minute live session",
         "Every Wednesday at 8 AM or 6 PM",
         "Core strength and flexibility",
-        "Moderate to intense workout"
+        "Moderate to intense workout, different options will be given so that you can adapt your practice to your body that day"
       ],
       link: "/pilates"
     },
