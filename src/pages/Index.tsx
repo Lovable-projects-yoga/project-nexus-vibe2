@@ -53,7 +53,6 @@ const Index = () => {
         "Every Wednesday at 8:30 PM",
         "Deep tissue stretching",
         "Crystal bowls and healing sounds",
-        "Complete mind-body restoration",
         "Perfect evening ritual"
       ]
     }
